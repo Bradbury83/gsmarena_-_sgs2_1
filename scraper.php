@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
 require 'scraperwiki/simple_html_dom.php';
 
 $html = scraperWiki::scrape("http://www.gsmarena.com/samsung_i9300_galaxy_s_iii-4238.php");
